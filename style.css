@@ -1,0 +1,31 @@
+    .required::after {
+      content: "*";
+      font-size: 15px;
+      color: red;
+    }
+
+    .Firstname::after {
+      content: "First";
+      font-size: 14px;
+    }
+
+    .Lastname::after {
+      content: "Last";
+      font-size: 14px;
+    }
+
+    .checked {
+      color: orange;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .table-row-custom:nth-of-type(even) {
+      background-color:lightgray;
+      color: white;
+    }
+    .td-2{
+      width: 200px;
+    }
